@@ -5,9 +5,98 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>B.T</title>
+    <title>B.T.</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: lightgray;
+        }
+
+        /**** menu ****/
+        header {
+            background-color: #f4f4f4;
+        }
+        
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        li {
+            font-size: 1.6rem;
+            margin: 0 0 0 40px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .menu a:visited {
+            color: black;
+        }
+
+        /**** articles ****/
+        .article-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+
+        .article {
+            background-color: #ffdf4a;
+            width: 50vw;
+        }
+
+        .article
+        h1,
+        h2,
+        p {
+            font-size: 4rem;
+            margin: 0;
+            padding: 10px;
+            font-family: sans-serif;
+            font-style: italic;
+        }
+
+        .article h2 {
+            color: red;
+        }
+
+        .article .line {
+            background-color: grey;
+            width: 100%;
+            height: 1px;
+            opacity: 50%;
+        }
+    </style>
 </head>
 <body>
-<p>Hej!</p>
+<header>
+    <div class="menu">
+    <ul>
+        <li>
+            <a href="">NYHEDER</a>
+        </li>
+        <li>
+            <a href="">SPORT</a>
+        </li>
+        <li>
+            <a href="">UNDERHOLDNING</a>
+        </li>
+    </ul>
+    </div>
+</header>
+
+<div class="article-wrapper">
+    <div class="article">
+    <h1>BREAKING</h1>
+        <div class="line"></div>
+    <h2>LIGE NU:</h2>
+    <p>Massivt DDoS-angreb</p>
+    </div>
+</div>
 </body>
 </html>
