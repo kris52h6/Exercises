@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Email</title>
+</head>
+<body>
+    <!--<h3 th:text="${email.getEmail()}">email</h3>-->
+    <div class="test" th:each="user: ${emails}">
+        <span th:text="${user.getEmail()}"></span>
+    </div>
+</body>
+</html>
