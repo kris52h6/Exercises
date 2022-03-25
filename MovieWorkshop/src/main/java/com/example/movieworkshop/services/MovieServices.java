@@ -2,10 +2,8 @@ package com.example.movieworkshop.services;
 
 import com.example.movieworkshop.models.Movie;
 import com.example.movieworkshop.repositories.MovieFileReader;
-import org.springframework.util.StringUtils;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Random;
 
