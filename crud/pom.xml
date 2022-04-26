@@ -9,14 +9,21 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>crud_interface</artifactId>
+    <artifactId>crud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>crud_interface</name>
-    <description>crud_interface</description>
+    <name>crud</name>
+    <description>crud</description>
     <properties>
         <java.version>11</java.version>
+        <!--<maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>-->
     </properties>
     <dependencies>
+        <!--<dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -36,7 +43,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.26</version>
+            <version>8.0.23</version>
         </dependency>
     </dependencies>
 
